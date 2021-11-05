@@ -8,7 +8,7 @@
               <Lunbo/>
           </header>
           <main class="main">
-
+            <Title />
           </main>
           <footer class="footer">
 
@@ -19,10 +19,13 @@
 <script>
 import Yuicon from '@/views/yuicon'
 import Lunbo from '@/views/lunbo/lunbo.vue'
+import Title from '@/views/title/index.vue'
+
   export default {
     components: {
         Yuicon,
-        Lunbo
+        Lunbo,
+        Title
      },
       data(){
         return{
