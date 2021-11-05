@@ -5,6 +5,7 @@
                 <p>欢迎来到紧缺应用技术技能型人才职业教育报考平台</p>
               </div>
               <Yuicon/>
+              <Lunbo/>
           </header>
           <main class="main">
 
@@ -17,9 +18,11 @@
 
 <script>
 import Yuicon from '@/views/yuicon'
+import Lunbo from '@/views/lunbo/lunbo.vue'
   export default {
     components: {
-        Yuicon
+        Yuicon,
+        Lunbo
      },
       data(){
         return{
