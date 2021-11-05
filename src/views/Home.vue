@@ -2,8 +2,9 @@
     <div class="wrap">
           <header class="header">
               <div class="header_top">
-                <input type="text" v-model="inp" placeholder="欢迎来到紧缺应用技术技能型人才职业教育报考平台">
+                <p>欢迎来到紧缺应用技术技能型人才职业教育报考平台</p>
               </div>
+              <Yuicon/>
           </header>
           <main class="main">
 
@@ -15,7 +16,11 @@
 </template>
 
 <script>
+import Yuicon from '@/views/yuicon'
   export default {
+    components: {
+        Yuicon
+     },
       data(){
         return{
           inp:''
@@ -38,33 +43,36 @@ input{
       width: 3.75rem;
       // height: 0.4rem;
       background: red;
+      margin: 0 auto;
       .header_top{
         width: 3.75rem;
         height: 0.3rem;
-        background: paleturquoise;
-        display: flex;
-        input{
-          width: 275px;
+        background: #fff;
+        // display: flex;
+        // align-items: center;
+        p{
+          width: 2.80rem;
           height: 0.3rem;
           font-family: PingFang-SC-Medium;
-          font-size: 12px;
+          font-size: 0.12rem;
           font-weight: normal;
           font-stretch: normal;
-          letter-spacing: 0px;
+          letter-spacing: 0rem;
           color: #777777;
           margin: 0 0 0 0.13rem;
-
+          line-height: 0.3rem;
         }
       }
   }
   .main{
-     flex: 1;
-     overflow-y: scroll;
+     flex: 1; 
+    //  overflow-y: scroll;
   }
   .footer{
     width: 3.75rem;
     height: 0.4rem;
     background: red;
+    margin: 0 auto;
   }
 }
 </style>
