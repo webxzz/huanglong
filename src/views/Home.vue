@@ -29,7 +29,7 @@ import Title from '@/views/title/index.vue'
      },
       data(){
         return{
-          inp:''
+        
         }
       }
   }
