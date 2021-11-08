@@ -1,23 +1,25 @@
 <template>
     <div class="dang">
-        <div class="title">
-            当前位置: 首页
-        </div>
+
+      <p>  当前位置: 首页</p>
+          
     </div>
 </template>
 
-<style lang="scss" scoped>
+<style  scoped>
 .dang{
-    background: #eaeaea;
     width:3.75rem;
-    height: .84rem;
-    line-height: 0.84rem;
-    margin:0 auto;
+    height: 0.43rem;
+    background: #eaeaea;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
-.title{
+p{
     width: 1.92rem;
-	font-size: 0.2rem;
+    font-size: 0.13rem;
 	color: #888888;
-    margin-left: .4rem;
+    margin-left: 0.2rem;
+    
 }
 </style>

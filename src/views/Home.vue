@@ -48,7 +48,7 @@ input{
   .header{
       width: 3.75rem;
       // height: 0.4rem;
-      background: red;
+      // background: red;
       margin: 0 auto;
       .header_top{
         width: 3.75rem;

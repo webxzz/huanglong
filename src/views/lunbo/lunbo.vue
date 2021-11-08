@@ -33,7 +33,7 @@ export default {
             {pic:require("../../assets/imgs/首页改1_27.gif")},
             {pic:require("../../assets/imgs/首页改1_68.gif")},
             {pic:require("../../assets/imgs/首页改1_71.gif")},
-             {pic:require("../../assets/imgs/首页改1_72.gif")},
+            {pic:require("../../assets/imgs/首页改1_72.gif")},
             {pic:require("../../assets/imgs/首页改1_75.gif")},
             {pic:require("../../assets/imgs/首页改1_71.gif")}
         ]
@@ -42,7 +42,7 @@ export default {
   async mounted() {
     var mySwiper = new Swiper("#swiperOne", {
       loop: true, // 循环模式选项
-    //    autoplay:true,//自动播放
+       autoplay:true,//自动播放
       // 如果需要分页器
       pagination: {
         el: ".swiper-pagination",
